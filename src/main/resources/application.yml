@@ -1,0 +1,16 @@
+
+server:
+  port: 8008
+  
+spring:
+  application:
+    name: rabbitmq-demo
+  
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    # 如果有多个虚机
+    # virtual-host: your_virtual_host
+
